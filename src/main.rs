@@ -2,6 +2,7 @@ use std::time::SystemTime;
 use chrono::DateTime;
 use chrono::offset::Utc;
 use sha256::digest;
+
 #[derive(Clone, Debug)]
 struct Block {
     time_stamp: SystemTime,
@@ -9,6 +10,7 @@ struct Block {
     hash: String,
     prev_hash: String
 }
+
 #[derive(Clone, Debug)]
 struct Blockchain {
     chain: Vec<Block>
