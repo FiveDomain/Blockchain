@@ -1,0 +1,11 @@
+[package]
+name = "blockchain"
+version = "0.1.0"
+authors = ["FiveDomain <40838497+FiveDomain@users.noreply.github.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+sha256 = "1.0.2"
+chrono = "*"
